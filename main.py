@@ -7,7 +7,7 @@ app = FastAPI()
 class Song(BaseModel):
     name: str
     author: str
-    album: str
+    genre: str
 
 songs = []
 
